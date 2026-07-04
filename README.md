@@ -1,134 +1,123 @@
-﻿# Credit-Card-approval-prediction
-Dataset Information
+# 💳 Credit Card Approval Prediction
 
+## 📂 Dataset Information
 The project uses two datasets:
 
-1️⃣ Application Dataset (application_record.csv)
-
+### 1️⃣ Application Dataset (`application_record.csv`)
 Contains applicant demographic and financial information.
 
-Features include:
+**Features include:**
+- Gender  
+- Income  
+- Occupation  
+- Education  
+- Family Status  
+- Housing Type  
+- Number of Children  
+- Family Members  
+- Employment Duration  
 
-Gender
-Income
-Occupation
-Education
-Family Status
-Housing Type
-Number of Children
-Family Members
-Employment Duration
-2️⃣ Credit Dataset (credit_record.csv)
-
+### 2️⃣ Credit Dataset (`credit_record.csv`)
 Contains historical credit information.
 
-Features include:
+**Features include:**
+- Customer ID  
+- Credit Status  
+- Monthly Balance Records  
 
-Customer ID
-Credit Status
-Monthly Balance Records
-⚙️ Data Preprocessing
+---
 
+## ⚙️ Data Preprocessing
 The following preprocessing techniques were applied:
+- Handling missing values  
+- Duplicate removal  
+- Feature engineering  
+- Label encoding  
+- One‑hot encoding  
+- Outlier treatment  
+- Feature scaling  
 
-Handling missing values
-Duplicate removal
-Feature engineering
-Label encoding
-One-hot encoding
-Outlier treatment
-Feature scaling
+**Generated features:**
+- Family Size  
+- Income Per Family  
+- Employment Flag  
 
-Generated features:
+---
 
-Family Size
-Income Per Family
-Employment Flag
-🤖 Machine Learning Models Used
-
+## 🤖 Machine Learning Models Used
 Three machine learning algorithms were evaluated:
 
-Logistic Regression
-Accuracy: 56.25%
-Decision Tree
-Accuracy: 78.82%
-Random Forest
-Accuracy: 83.83%
+- **Logistic Regression** → Accuracy: **56.25%**  
+- **Decision Tree** → Accuracy: **78.82%**  
+- **Random Forest** → Accuracy: **83.83%** ✅ *Selected for deployment*
 
-Random Forest achieved the best overall performance and was selected for deployment.
+---
 
-📊 Model Evaluation Metrics
+## 📊 Model Evaluation Metrics
+Metrics used:
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- Confusion Matrix  
 
-The following metrics were used:
+**Results:**
 
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix
-🖥 User Interface
+| Model               | Accuracy | Precision | Recall | F1 Score |
+|----------------------|----------|-----------|--------|----------|
+| Logistic Regression  | 56.25%   | 13.58%    | 50.69% | 21.43%   |
+| Decision Tree        | 78.82%   | 31.07%    | 65.61% | 42.17%   |
+| Random Forest        | 83.83%   | 37.31%    | 55.01% | 44.47%   |
 
-The application was developed using Gradio and contains:
+---
 
-Applicant Information Form
-Prediction Button
-Approval Status Display
-SmartBridge Branding
-White Professional Theme
+## 🖥 User Interface
+The application was developed using **Gradio** and contains:
+- Applicant Information Form  
+- Prediction Button  
+- Approval Status Display  
+- SmartBridge Branding  
+- White Professional Theme  
 
-Example outputs:
+**Example outputs:**
+- ✅ Credit Card Approved  
+- ❌ Credit Card Rejected  
 
-✅ Credit Card Approved
-❌ Credit Card Rejected
-🛠 Technologies Used
-Programming Language
-Python
-Libraries
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Gradio
-Development Environment
-Google Colab
-Deployment
-Gradio Public Share Link
-📈 Results
-Model	Accuracy	Precision	Recall	F1 Score
-Logistic Regression	56.25%	13.58%	50.69%	21.43%
-Decision Tree	78.82%	31.07%	65.61%	42.17%
-Random Forest	83.83%	37.31%	55.01%	44.47%
+---
 
-Random Forest was selected as the final production model.
+## 🛠 Technologies Used
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Scikit‑learn, Matplotlib, Gradio  
+- **Environment:** Google Colab  
+- **Deployment:** Gradio Public Share Link  
 
+---
 
-The project can be deployed using:
+## 📈 Results
+Random Forest was selected as the final production model due to best performance.
 
-Google Colab
-Gradio Share Link
-Hugging Face Spaces
-Render
-Railway
-AWS EC2
-🔮 Future Enhancements
-SMOTE for class imbalance handling
-Deep Learning models
-Explainable AI integration
-Banking API integration
-Cloud deployment
-User authentication
-Multi-language support
-👥 Team Members
- 1.Manish Charak
- 2.Khushi koul
-🎯 Objectives Achieved
+---
 
-✅ Automated credit card approval prediction
+## 🔮 Future Enhancements
+- SMOTE for class imbalance handling  
+- Deep Learning models  
+- Explainable AI integration  
+- Banking API integration  
+- Cloud deployment (AWS, Render, Railway, Hugging Face Spaces)  
+- User authentication  
+- Multi‑language support  
 
-✅ Reduced manual verification effort
+---
 
-✅ Improved consistency in decision making
+## 👥 Team Members
+- Manish Charak  
+- Khushi Koul  
 
-✅ Faster application processing
+---
 
-✅ Interactive web deployment
+## 🎯 Objectives Achieved
+✅ Automated credit card approval prediction  
+✅ Reduced manual verification effort  
+✅ Improved consistency in decision making  
+✅ Faster application processing  
+✅ Interactive web deployment  
