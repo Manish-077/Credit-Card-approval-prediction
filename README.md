@@ -1,5 +1,5 @@
 # 💳 Credit Card Approval Prediction
-
+ Demo video link :- https://drive.google.com/file/d/1_JP_3FsO2bLfdcJI2VVeInONvxS64PEp/view?usp=sharing
 ## 📂 Dataset Information
 The project uses two datasets:
 
